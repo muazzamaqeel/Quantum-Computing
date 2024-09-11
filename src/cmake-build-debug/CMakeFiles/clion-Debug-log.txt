@@ -1,0 +1,16 @@
+C:\Users\muazz\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/muazz/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\programming\Quantum-Computing\src -B C:\programming\Quantum-Computing\src\cmake-build-debug
+-- Configuring done
+CMake Error at CMakeLists.txt:12 (add_executable):
+  Cannot find source file:
+
+    C:/programming/Quantum-Computing/src/src/main.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+
+CMake Error at CMakeLists.txt:12 (add_executable):
+  No SOURCES given to target: quantum_sim
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
